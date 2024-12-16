@@ -1,0 +1,16 @@
+{
+  "name": "analysi",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@deriv/api-types": "^1.0.2589",
+    "@deriv/deriv-api": "^1.0.15",
+    "ws": "^8.18.0"
+  }
+}
