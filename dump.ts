@@ -1,7 +1,10 @@
 import WebSocket from 'ws';
 const DerivAPI = require('@deriv/deriv-api/dist/DerivAPI');
-const connection = new WebSocket('wss://ws.derivws.com/websockets/v3?app_id=65687');
+const connection = new WebSocket('wss://ws.binaryws.com/websockets/v3?app_id=65687');
 const api        = new DerivAPI({ connection });
+
+
+
 
 async function fetchFullDayTicks(symbol: string, date: string) {
   
